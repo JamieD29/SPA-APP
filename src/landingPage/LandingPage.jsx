@@ -1,14 +1,14 @@
 import { Outlet } from "react-router-dom"
-import NavBar from "./components/navbar/NavBar"
+import NavbarWithMegaMenu from "./components/navbar/NavBar";
 
 function LandingPage() {
   return (
     <div>
-      <NavBar/>
-      <Outlet/>
+      <NavbarWithMegaMenu />
+      <Outlet />
       {/* Footer */}
     </div>
-  )
+  );
 }
 
 export default LandingPage
