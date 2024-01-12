@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import NavbarWithMegaMenu from "./components/navbar/NavBar";
+import { Footer } from "./components/footer/Footer";
 
 function LandingPage() {
   return (
@@ -7,6 +8,7 @@ function LandingPage() {
       <NavbarWithMegaMenu />
       <Outlet />
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
