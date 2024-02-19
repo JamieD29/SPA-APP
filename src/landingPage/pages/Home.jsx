@@ -1,11 +1,13 @@
 import SlickStuff from "../components/slick/Slick";
-import Carousel_Sec from '../components/carousel/CarouselSec';
+import Carousel_Sec from "../components/carousel/CarouselSec";
 import messageTherapy from "../../assets/beautiful-hands-with-cream.jpg";
 import sliderSecond from "../../assets/banner/slide-3.jpg";
-import { Button, Typography } from '@material-tailwind/react';
+import { Button, Typography } from "@material-tailwind/react";
 import AppointmentForm from "../components/forms/appointmentForm/AppointmentForm";
 
 function Home() {
+  
+
   return (
     <>
       <Carousel_Sec />
@@ -130,10 +132,11 @@ function Home() {
         </div>
       </section>
 
+
       {/* Sign up form */}
       <section className="py-10">
         <div className="flex justify-center">
-         <AppointmentForm/>
+          <AppointmentForm />
         </div>
       </section>
     </>
